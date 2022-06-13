@@ -4,11 +4,28 @@
   "description": "Retrieves market information for trading pairs",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "lint": "eslint"
   },
   "author": "vera8german@gmail.com",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1"
-  }
+  },
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.16",
+    "prettier": "^2.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SherVera/market-status.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SherVera/market-status/issues"
+  },
+  "homepage": "https://github.com/SherVera/market-status#readme"
 }
